@@ -9,7 +9,8 @@
 #pragma once
 
 #include "../JuceLibraryCode/JuceHeader.h"
-
+#include "WallComponent.h"
+#include "GrassComponent.h"
 //==============================================================================
 /*
     This component lives inside our window, and this is where you should put all
@@ -31,5 +32,7 @@ private:
     // Your private member variables go here...
 
 
-    JUCE_DECLARE_NON_COPYABLE_WITH_LEAK_DETECTOR (MainComponent)
+	JUCE_DECLARE_NON_COPYABLE_WITH_LEAK_DETECTOR(MainComponent)
+	WallComponent wall;
+	GrassComponent grass;
 };

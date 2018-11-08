@@ -3,10 +3,17 @@
 <JUCERPROJECT id="x1XgVm" name="HelloWorld" projectType="guiapp" jucerVersion="5.4.0">
   <MAINGROUP id="Cmbtsa" name="HelloWorld">
     <GROUP id="{BB55F27C-D96C-7AC6-01C0-275915683D27}" name="Source">
-      <FILE id="jAJg8H" name="MainComponent.h" compile="0" resource="0" file="Source/MainComponent.h"/>
+      <FILE id="AC5hzz" name="Main.cpp" compile="1" resource="0" file="Source/Main.cpp"/>
       <FILE id="qa76hd" name="MainComponent.cpp" compile="1" resource="0"
             file="Source/MainComponent.cpp"/>
-      <FILE id="AC5hzz" name="Main.cpp" compile="1" resource="0" file="Source/Main.cpp"/>
+      <FILE id="jAJg8H" name="MainComponent.h" compile="0" resource="0" file="Source/MainComponent.h"/>
+      <FILE id="MQ6kbY" name="GrassComponent.cpp" compile="1" resource="0"
+            file="Source/GrassComponent.cpp"/>
+      <FILE id="JONf9F" name="GrassComponent.h" compile="0" resource="0"
+            file="Source/GrassComponent.h"/>
+      <FILE id="vzA3Vo" name="WallComponent.cpp" compile="1" resource="0"
+            file="Source/WallComponent.cpp"/>
+      <FILE id="RYCkur" name="WallComponent.h" compile="0" resource="0" file="Source/WallComponent.h"/>
     </GROUP>
   </MAINGROUP>
   <EXPORTFORMATS>

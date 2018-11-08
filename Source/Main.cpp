@@ -75,7 +75,7 @@ public:
             centreWithSize (getWidth(), getHeight());
            #endif
 
-            setVisible (true);
+            setVisible (true);        // Can't see the window if it is set to false.
         }
 
         void closeButtonPressed() override
